@@ -4,6 +4,72 @@
     "/Users/kubrakocyigitoktay/Desktop/movieApp/Presentation/MovieApi.WebApi/MovieApi.WebApi.csproj": {}
   },
   "projects": {
+    "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Application/MovieApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Application/MovieApi.Application.csproj",
+        "projectName": "MovieApi.Application",
+        "projectPath": "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Application/MovieApi.Application.csproj",
+        "packagesPath": "/Users/kubrakocyigitoktay/.nuget/packages/",
+        "outputPath": "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kubrakocyigitoktay/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Domain/MovieApi.Domain.csproj": {
+                "projectPath": "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Domain/MovieApi.Domain.csproj"
+              },
+              "/Users/kubrakocyigitoktay/Desktop/movieApp/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj": {
+                "projectPath": "/Users/kubrakocyigitoktay/Desktop/movieApp/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Domain/MovieApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -170,6 +236,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Application/MovieApi.Application.csproj": {
+                "projectPath": "/Users/kubrakocyigitoktay/Desktop/movieApp/Core/MovieApi.Application/MovieApi.Application.csproj"
+              },
               "/Users/kubrakocyigitoktay/Desktop/movieApp/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj": {
                 "projectPath": "/Users/kubrakocyigitoktay/Desktop/movieApp/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj"
               }
@@ -194,7 +263,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[2.4.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -215,6 +284,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[10.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.1.4, )"
             }
           },
           "imports": [

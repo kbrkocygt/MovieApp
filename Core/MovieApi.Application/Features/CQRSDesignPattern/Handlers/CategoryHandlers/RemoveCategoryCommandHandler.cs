@@ -13,7 +13,7 @@ public class RemoveCategoryCommandHandler
         _contex = context;
     }
 
-    public async void Handle(RemovecategoryCommand command)
+    public async Task Handle(RemovecategoryCommand command)
     {
         var value = await _contex.Categories.FindAsync(command.CategoryId);
         _contex.Categories.Remove(value);
