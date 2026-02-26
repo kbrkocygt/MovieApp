@@ -1,8 +1,10 @@
 using System;
+using MediatR;
 
-namespace MovieApi.Domain.Entities;
+namespace MovieApi.Application.Features.MediatorDesignPattern.Commands.CastCommand;
 
-public class Cast
+public class UpdateCastCommand : IRequest
+
 {
     public int CastId { get; set; }
     public string Title { get; set; }
