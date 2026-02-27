@@ -21,7 +21,7 @@ public class UpdateCastCommandHandler : IRequestHandler<UpdateCastCommand>
         cast.Surname = request.Surname;
         cast.ImageUrl = request.ImageUrl;
         cast.Biography = request.Biography;
-        cast.Overview = request.Overview;
+        // cast.Overview = request.Overview;
 
         await _context.SaveChangesAsync(cancellationToken);
 

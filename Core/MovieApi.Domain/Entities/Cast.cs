@@ -10,6 +10,6 @@ public class Cast
     public string Surname { get; set; }
     public string ImageUrl { get; set; }
     public string Biography { get; set; }
-    public string Overview { get; set; }
+    // public string Overview { get; set; }
 
 }

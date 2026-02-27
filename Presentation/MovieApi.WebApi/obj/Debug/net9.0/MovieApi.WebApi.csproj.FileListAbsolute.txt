@@ -162,3 +162,5 @@
 /Users/kubrakocyigitoktay/Desktop/movieApp/Presentation/MovieApi.WebApi/obj/Debug/net9.0/MovieApi.WebApi.pdb
 /Users/kubrakocyigitoktay/Desktop/movieApp/Presentation/MovieApi.WebApi/obj/Debug/net9.0/MovieApi.WebApi.genruntimeconfig.cache
 /Users/kubrakocyigitoktay/Desktop/movieApp/Presentation/MovieApi.WebApi/obj/Debug/net9.0/ref/MovieApi.WebApi.dll
+/Users/kubrakocyigitoktay/Desktop/movieApp/Presentation/MovieApi.WebApi/bin/Debug/net9.0/MediatR.dll
+/Users/kubrakocyigitoktay/Desktop/movieApp/Presentation/MovieApi.WebApi/bin/Debug/net9.0/MediatR.Contracts.dll

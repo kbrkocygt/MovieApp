@@ -14,12 +14,14 @@
     <Folder Include="Features/CQRSDesignPattern/Queries/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/CategoryQueries/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/MovieQueries/" />
+    <Folder Include="Features/MediatorDesignPattern/Commands/TagCommands/" />
     <Folder Include="Features/MediatorDesignPattern/Handlers/" />
     <Folder Include="Features/MediatorDesignPattern/Handlers/CastHandlers/" />
-    <Folder Include="Features/MediatorDesignPattern/Queries/" />
+    <Folder Include="Features/MediatorDesignPattern/Handlers/TagHandlers/" />
     <Folder Include="Features/MediatorDesignPattern/Queries/CastQueries/" />
     <Folder Include="Features/MediatorDesignPattern/Results/" />
     <Folder Include="Features/MediatorDesignPattern/Results/CastResults/" />
+    <Folder Include="Features/MediatorDesignPattern/Results/TagResults/" />
   </ItemGroup>
 
   <ItemGroup>
