@@ -27,7 +27,9 @@ public class GetMovieByIdQueryHandler
             ReleaseDate = movie.ReleaseDate,
             Rating = movie.Rating,
             Duration = movie.Duration,
-            Status = movie.Status
+            Status = movie.Status,
+            CreatedYear = movie.CreatedYear
+
         };
     }
 }

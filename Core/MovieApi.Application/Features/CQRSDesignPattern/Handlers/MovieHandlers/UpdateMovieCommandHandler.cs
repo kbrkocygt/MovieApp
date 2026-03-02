@@ -23,6 +23,7 @@ public class UpdateMovieCommandHandler
         value.ReleaseDate = command.ReleaseDate;
         value.Status = command.Status;
 
+
         await _context.SaveChangesAsync();
     }
 }

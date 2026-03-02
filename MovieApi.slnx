@@ -3,6 +3,10 @@
     <Project Path="Core/MovieApi.Domain/MovieApi.Domain.csproj" />
      <Project Path="Core/MovieApi.Application/MovieApi.Application.csproj" />
   </Folder>
+  <Folder Name="/Frontend/">
+    <Project Path="Frontend/MovieApi.WebUI/MovieApi.WebUI.csproj" />
+      <Project Path="Frontend/MovieApi.Dto/MovieApi.Dto.csproj" />
+  </Folder>
   <Folder Name="/Infrastructure/">
     <Project Path="Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj" />
   </Folder>

@@ -24,7 +24,8 @@ public class GetMovieQueryHandler
             ReleaseDate = m.ReleaseDate,
             Rating = m.Rating,
             Duration = m.Duration,
-            Status = m.Status
+            Status = m.Status,
+            CreatedYear = m.CreatedYear
         }).ToList();
     }
 }

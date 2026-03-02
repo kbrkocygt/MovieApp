@@ -32,7 +32,7 @@ namespace MovieApi.WebApi.Controllers
             return Ok(movies);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateMovie([FromBody] CreateMovieCommand command)
+        public async Task<IActionResult> CreateMovie(CreateMovieCommand command)
         {
             await _createMovieCommandHandler.Handle(command);
             return Ok("Movie created successfully.");
@@ -52,7 +52,7 @@ namespace MovieApi.WebApi.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateMovie([FromBody] UpdateMovieCommand command)
+        public async Task<IActionResult> UpdateMovie(UpdateMovieCommand command)
         {
             await _updateMovieCommandHandler.Handle(command);
             return Ok("Movie updated successfully.");
