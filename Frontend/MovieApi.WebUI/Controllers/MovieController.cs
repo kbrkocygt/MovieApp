@@ -30,5 +30,24 @@ namespace MovieApi.WebUI.Controllers
             return View();
 
         }
+
+        public async Task<ActionResult> MovieDetail(int id)
+        {
+            // ViewBag.v1 = "Film Detayı";
+            // ViewBag.v2 = "Anasayfa";
+            // ViewBag.v3 = "Film Detayı";
+
+            // var client = _httpClientFactory.CreateClient();
+            // var responseMessage = await client.GetAsync($"http://localhost:5089/api/Movies/{id}");
+            // if (responseMessage.IsSuccessStatusCode)
+            // {
+            //     var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            //     var values = JsonConvert.DeserializeObject<ResultMovieDto>(jsonData);
+            //     return View(values);
+            // }
+            id = 0;
+            return View();
+
+        }
     }
 }

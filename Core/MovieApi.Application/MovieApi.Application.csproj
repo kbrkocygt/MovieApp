@@ -10,7 +10,9 @@
     <Folder Include="Features/CQRSDesignPattern/Commands/" />
     <Folder Include="Features/CQRSDesignPattern/Commands/CategoryCommands/" />
     <Folder Include="Features/CQRSDesignPattern/Commands/MovieCommand/" />
+    <Folder Include="Features/CQRSDesignPattern/Commands/UserRegisterCommand/" />
     <Folder Include="Features/CQRSDesignPattern/Handlers/MovieHandlers/" />
+    <Folder Include="Features/CQRSDesignPattern/Handlers/UserRegisterHandlers/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/CategoryQueries/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/MovieQueries/" />

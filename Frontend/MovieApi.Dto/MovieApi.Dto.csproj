@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Dtos/MovieDtos/" />
+    <Folder Include="Dtos/UserDtos/" />
   </ItemGroup>
 
 </Project>

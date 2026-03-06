@@ -7,8 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Requirements/StitchAI/StitchAIChatGPTCodePromt.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewComponents/AdminLayoutViewComponent/" />
+    <Folder Include="Views/AdminLayout/" />
+    <Folder Include="Views/Login/" />
     <Folder Include="Views/Movie/" />
+    <Folder Include="Views/Register/" />
     <Folder Include="Views/Shared/Components/" />
+    <Folder Include="Views/Shared/Components/_AdminLayoutSidebarComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_HeadAdminLayoutComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_MovieDetailOverviewComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_MovieDetailRateComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_MovieDetailRelatedMoviesComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_MovieDetailReviewComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_MovieDetailShareSocialMediaComponentPartial/" />
+    <Folder Include="Views/Shared/Components/_MovieImageAndWatchTrailerComponentPartial/" />
     <Folder Include="Views/Shared/Components/_UserLayoutWebUIFooterComponentPartial/" />
     <Folder Include="Views/Shared/Components/_UserLayoutWebUIHeadComponentPartial/" />
     <Folder Include="Views/Shared/Components/_UserLayoutWebUIHeroComponentPartial/" />
