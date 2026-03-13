@@ -10,12 +10,16 @@
     <Folder Include="Features/CQRSDesignPattern/Commands/" />
     <Folder Include="Features/CQRSDesignPattern/Commands/CategoryCommands/" />
     <Folder Include="Features/CQRSDesignPattern/Commands/MovieCommand/" />
+    <Folder Include="Features/CQRSDesignPattern/Commands/SeriesCommand/" />
     <Folder Include="Features/CQRSDesignPattern/Commands/UserRegisterCommand/" />
     <Folder Include="Features/CQRSDesignPattern/Handlers/MovieHandlers/" />
+    <Folder Include="Features/CQRSDesignPattern/Handlers/SeriesHandlers/" />
     <Folder Include="Features/CQRSDesignPattern/Handlers/UserRegisterHandlers/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/CategoryQueries/" />
     <Folder Include="Features/CQRSDesignPattern/Queries/MovieQueries/" />
+    <Folder Include="Features/CQRSDesignPattern/Queries/SeriesQueries/" />
+    <Folder Include="Features/CQRSDesignPattern/Results/SeriesResult/" />
     <Folder Include="Features/MediatorDesignPattern/Commands/TagCommands/" />
     <Folder Include="Features/MediatorDesignPattern/Handlers/" />
     <Folder Include="Features/MediatorDesignPattern/Handlers/CastHandlers/" />

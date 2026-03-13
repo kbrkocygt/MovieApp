@@ -17,6 +17,7 @@ public class MovieContext : IdentityDbContext<AppUser>
     public DbSet<Tag> Tags { get; set; }
     public DbSet<Review> Reviews { get; set; }
     public DbSet<Cast> Casts { get; set; }
+    public DbSet<Series> Serieses { get; set; }
 }
 
 
